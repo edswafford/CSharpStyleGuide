@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-www.idesign.net  June 2023 
+  June 2023 
  
 - 1 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -12,11 +12,11 @@ C# Coding Standard
 Guidelines and Best Practices 
 Version 3.01  
 Author: Juval Löwy 
-www.idesign.net  
+  
   
 
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 2 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -46,7 +46,7 @@ Resources ......................................... ............................
  
   
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 3 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -84,7 +84,7 @@ Juval Löwy
  
 March 2023 
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 4 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -123,7 +123,7 @@ interface  IMy Dialog
 8)  Methods with return values should have a name descr ibing the value 
 returned, such as GetLogbookState() .  
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 5 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -165,7 +165,7 @@ int number = 123 ;
 string name = "Juval" ; 
   
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 6 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -208,7 +208,7 @@ if (...)
 } 
  
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 7 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -263,7 +263,7 @@ SomeDelegate someDelegate1 = delegate ()
                              }; 
   
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 8 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -299,7 +299,7 @@ switch (number)
 } 
   
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 9 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -338,7 +338,7 @@ class  MyClass
 4)  Avoid defining multiple types in the same file. You  can define nested 
 classes in the same file.  
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 10 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -380,7 +380,7 @@ int     NOT Int32
 2)  Except for 0 and 1, never hard-code a numeric value ; declare a constant 
 instead.  
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 11 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -429,7 +429,7 @@ Components 2nd  Edition.
 2)  Avoid interfaces with one member. 
 3)  Strive to have three to five members per interface.  
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 12 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -481,7 +481,7 @@ else
 }   
  
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 13 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -534,7 +534,7 @@ defensively. See Chapters 6-8 of Programming .NET C omponents 2 nd
 Edition. 
 6)  Do not define generic constraints in delegates. 
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 14 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -582,7 +582,7 @@ class  MyClass
    } 
 } 
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 15 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -639,7 +639,7 @@ class  MyClass
 } 
 MyClass myClass = new  MyClass( 123 ); 
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 16 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -684,7 +684,7 @@ portions.
 9)  Never use unsafe code, except when using interop.  
 10)  Avoid the ternary conditional operator.  
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 17 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -736,7 +736,7 @@ if (shepherd != null )
 {...} 
   
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 18 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -787,7 +787,7 @@ using (...);
 using (...) 
 {...}   
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 19 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -836,7 +836,7 @@ MyClass myClass = new  MyClass(Foo());
 int number = Foo(); 
 MyClass myClass = new  MyClass(number); 
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 20 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -890,7 +890,7 @@ switch (number)
 } 
   
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 21 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -947,7 +947,7 @@ class  GermanShepherd : Dog
    } 
 }  
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 22 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -984,7 +984,7 @@ MyMethod(name =>{DoSomething();Trace.WriteLine(name );});
 MyMethod(( string  name)=>  Trace.WriteLine(name)); 
   
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 23 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1009,7 +1009,7 @@ your solution, unlike the default which will give y ou the latest:
 </ Project >  
 
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 24 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1040,7 +1040,7 @@ true :
 </ Project >  
 
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 25 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1065,7 +1065,7 @@ recommends treating warnings as errors in Debug bui lds as well:
 </ Project >  
 
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 26 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1091,7 +1091,7 @@ settings for defining conditional compilation const ants.
 14.  Put Assembly Attributes in the project file or Directory.Build.props  file. 
 
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 27 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1117,7 +1117,7 @@ file version:
 dotnet build -p:Version=1.2.3.4 
 
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 28 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1130,7 +1130,7 @@ package source mapping:
 <? xml  version =”1.0 ” encoding =”utf-8”?>  
 <configuration > 
    <packageSources > 
-      <add  key = ”IDesign.net ” value = ”https://idesign.net/packages/ ” />  
+      <add  key = ”IDesign.net ” value = ”https: ... packages/ ” />  
    </ packageSources > 
    <packageSourceMapping > 
       <packageSource  key = ”IDesign.net ”> 
@@ -1154,7 +1154,7 @@ assemblies.
 31.  Apply encryption and security protection on applica tion configuration files. 
  
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 29 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1200,7 +1200,7 @@ async  Task  MyCallingMethodAsync()
 } 
   
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 30 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1255,7 +1255,7 @@ async  Task MyUIMethod()
    ... 
 } 
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 31 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1309,7 +1309,7 @@ void MyResultProcessing(Task result)
    } 
    ... 
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 32 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1367,7 +1367,7 @@ async  Task MyCallingMethod()
  
  
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 33 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1418,7 +1418,7 @@ void MyExceptionPolicy(AggregateException exception)
    {...} 
 } 
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 34 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1473,7 +1473,7 @@ async  Task MyCallingMethodAsync()
                                string  result = MyServiceCallAsync(element).Result; 
                                results. AddOrUpdate (element,result,...)); 
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 35 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1525,7 +1525,7 @@ c)  If your design requires it, marshal your continuati on back to the
 parent thread using 
 TaskScheduler.FromCurrentSynchronizationContext()   
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 36 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1577,7 +1577,7 @@ c)  Always first check if there were inner exceptions.
  
  
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 37 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1633,7 +1633,7 @@ Task  MyLongRunningMethodAsync(..., CancellationToken token )
 } 
  
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 38 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1689,7 +1689,7 @@ void MyCallingMethod()
                                              { 
                                                 while ( 
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 39 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1745,7 +1745,7 @@ async Task MyCallingMethodAsync()
    {...} 
 } 
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 40 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1786,7 +1786,7 @@ void  WaitForThreadToDie(Thread thread)
 manipulation.  
   
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 41 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1827,7 +1827,7 @@ lock (obj3)
 } 
   
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 42 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1847,7 +1847,7 @@ TransactionScope .
 8.  Always catch and discard exceptions thrown by a tra nsaction scope that 
 is set to TransactionScopeOption.Suppress .   
 
-www.idesign.net  June 2023 
+  June 2023 
  
 - 43 - 
 ©2023 IDesign Inc. All rights reserved. 
@@ -1876,7 +1876,7 @@ understood aspects. You will see relevant design gu idelines, best practices,
 pitfalls, and the crucial process required of today ’s modern architects. Do not 
 miss this unique opportunity to learn and improve y our design skills with 
 IDesign and share our passion for architecture and software engineering. 
-More at www.idesign.net    
+More at     
 
 
 =======
@@ -1891,7 +1891,7 @@ C# Coding Standard
 Guidelines and Best Practices
 Version 3.
 Author: Juval Löwy
-http://www.idesign.net
+
 - 2 -
 
     Preface Table of Contents
@@ -1995,7 +1995,7 @@ void MyMethod(int s ome N umber)
 int n umber;
 }
 
-3) Prefix interface names with I such as:
+1) Prefix interface names with I such as:
 
 interface I MyInterface
 {...}
@@ -3177,7 +3177,7 @@ package source mapping:
 <?xml version=”1.0” encoding=”utf-8”?>
 <configuration>
 <packageSources>
-<add key = ”IDesign.net” value = ”https://idesign.net/packages/” />
+<add key = ”IDesign.net” value = ”https: ... /packages/” />
 </packageSources>
 <packageSourceMapping>
 <packageSource key = ”IDesign.net”>
@@ -3953,67 +3953,3 @@ obj2.DoSomething();
 obj3.DoSomething();
 }
 
-- 42 -
-6 Transactions
-1. Always dispose of a TransactionScope object.
-
-    Inside a transaction scope, do not put any code after the call to
-
-Complete().
-
-    When setting the ambient transaction, always save the old ambient
-
-transaction and restore it when you are done.
-
-    In Release builds, never set the transaction timeout to 0 (infinite timeout).
-    When cloning a transaction, always use
-
-DependentCloneOption.BlockCommitUntilComplete.
-
-    Create a new dependent clone for each worker thread. Never pass the
-
-same dependent clone to multiple threads.
-
-    Do not pass a transaction clone to the constructor of
-
-TransactionScope.
-
-    Always catch and discard exceptions thrown by a transaction scope that
-
-is set to TransactionScopeOption.Suppress.
-- 43 -
-Resources
-Programming .NET Components 2 nd Edition
-
-By Juval Löwy, O'Reilly 2005
-Righting Software 1st Edition
-
-By Juval Löwy, Addison-Wesley, 2020
-The Architect’s Master Class
-
-The Architect’s Master Class is the ultimate resource for the professional
-
-architect. The class shows how to take an active leadership role and is often
-
-referred to as a career-changing event. Alumni of the class are the architects
-
-of some of the most well-known companies and projects around the world.
-
-While the class shows how to design modern systems, it sets the focus on the
-
-‘why’ and the rationale behind design decisions, often shedding light on poorly
-
-understood aspects. You will see relevant design guidelines, best practices,
-
-pitfalls, and the crucial process required of today’s modern architects. Do not
-
-miss this unique opportunity to learn and improve your design skills with
-
-IDesign and share our passion for architecture and software engineering.
-
-More at http://www.idesign.net
-
-This is a offline tool, your data stays locally and is not send to any server!
-
-Feedback & Bug Reports
->>>>>>> 9dbe27d (delete file)
